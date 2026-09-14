@@ -1,5 +1,5 @@
-# TikTok Lingo privacy policy
+# TikTok Lingo
 
-Public privacy policy and support contact for TikTok Lingo.
+[Privacy policy / 隐私政策](PRIVACY.md)
 
 Support: allon517@gmail.com
