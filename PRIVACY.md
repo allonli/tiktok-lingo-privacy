@@ -2,7 +2,7 @@
 
 ## TikTok Lingo · Privacy policy
 
-Updated: 20 September 2026 · Applies to version 1.3.0
+Updated: 23 September 2026 · Applies to version 1.4.2
 
 ### Data used by the extension
 
@@ -14,11 +14,11 @@ New installations enable subtitle translation with Google web translation by def
 
 ### Local listening practice
 
-Compromise is bundled and runs locally to group subtitle text into practice cards, without an AI API key. Practice stores video identifiers, subtitle fingerprints, numeric card order and learning marks locally. Sentences marked for later practice additionally retain the original text, available translation, video link and subtitle timestamps. Learning manager shows totals across all saved videos, opens selected sentences in a new tab, and lets you delete review entries and their saved text. Previous records without text are filled when their video is revisited. Records are not automatically evicted after 100 videos; storage errors are reported instead. Audio is never stored, and learning data is not synced across devices. The normal translation settings still govern any translation requests. Clearing extension storage or uninstalling removes progress.
+Compromise is bundled and runs locally to group subtitle text into practice cards, without an AI API key. Practice stores video identifiers, video titles, difficulty preferences, subtitle fingerprints, numeric card order and learning marks locally. Saved-sentence notes, tags and folders also stay in this browser. Saved sentences additionally retain the original text, available translation, video link and subtitle timestamps. Learning manager shows totals across all saved videos, opens selected sentences in a new tab, and lets you delete saved sentence entries and their text. Previous records without text are filled when their video is revisited. Records are not automatically evicted after 100 videos; storage errors are reported instead. Audio is never stored, and learning data is not synced across devices. The normal translation settings still govern any translation requests. Clearing extension storage or uninstalling removes progress.
 
 ### Local storage and retention
 
-Your selected service, API endpoint, model, language preferences, display modes and switches are saved in this browser profile. The API key is stored locally and is accessible only to trusted extension contexts, not TikTok page scripts. It is not synced across devices and remains after extension updates or browser restarts until you clear it, save a different custom API domain, or uninstall the extension. Switching to a free service keeps your custom API settings and key on this device, but does not send them to the free service. Ordinary subtitle/comment translation caches are temporary and stay in page or extension background memory. Only the review sentences described above persist locally. Page memory clears when the page closes; background cache clears when the background worker stops. Clear your key in settings; uninstalling removes the extension's saved settings.
+Your selected service, API endpoint, model, language preferences, display modes and switches are saved in this browser profile. The API key is stored locally and is accessible only to trusted extension contexts, not TikTok page scripts. It is not synced across devices and remains after extension updates or browser restarts until you clear it, save a different custom API domain, or uninstall the extension. Switching to a free service keeps your custom API settings and key on this device, but does not send them to the free service. Ordinary subtitle/comment translation caches are temporary and stay in page or extension background memory. Only the saved sentences described above persist locally. Page memory clears when the page closes; background cache clears when the background worker stops. Clear your key in settings; uninstalling removes the extension's saved settings.
 
 ### Permissions and scope
 
@@ -34,7 +34,7 @@ Support: allon517@gmail.com
 
 ## TikTok Lingo · 隐私政策
 
-更新日期：2026-09-20 · 适用于 1.3.0
+更新日期：2026-09-23 · 适用于 1.4.2
 
 ### 扩展处理的数据
 
@@ -46,11 +46,11 @@ Support: allon517@gmail.com
 
 ### 本地听力练习
 
-内置 Compromise 在浏览器本地将字幕分组，无需 AI API Key。练习在本机保存视频标识、字幕指纹、数字卡片顺序及学习标记；待再练句子额外保存原文、已有译文、视频链接和字幕时间点。学习管理汇总所有保留视频，可新开页面学习指定句子，也可删除待再练记录及保存文本。旧记录没有文本时，在回访视频后补齐。不按100个视频自动淘汰，空间不足时报告错误。不保存音频，不跨设备同步学习记录。已有翻译仍遵循翻译设置。清除扩展存储或卸载可删除练习进度。
+内置 Compromise 在浏览器本地将字幕分组，无需 AI API Key。练习在本机保存视频标识、视频标题、难度偏好、字幕指纹、数字卡片顺序及学习标记；备注、标签和目录也只保存在此浏览器。已收藏句子额外保存原文、已有译文、视频链接和字幕时间点。学习管理汇总所有保留视频，可新开页面学习指定句子，也可删除收藏记录及保存文本。旧记录没有文本时，在回访视频后补齐。不按100个视频自动淘汰，空间不足时报告错误。不保存音频，不跨设备同步学习记录。已有翻译仍遵循翻译设置。清除扩展存储或卸载可删除练习进度。
 
 ### 本机存储与保留期限
 
-所选服务、API 地址、模型、语言、显示模式及开关保存在此浏览器配置文件中。API Key 在本机保存，仅可信扩展上下文可访问，TikTok 网页脚本无法读取；不会跨设备同步，更新扩展或重启浏览器后仍保留，直到你清除密钥、保存不同自定义 API 域名或卸载扩展。切换到免费服务会保留本机原有 API 配置与密钥，不会将其发送给免费服务。普通字幕、评论翻译只在页面或扩展后台内存中短暂缓存；仅上文所述待再练句子会持久保存在本机。页面关闭时清除页面内存，后台停止时清除后台缓存。可在设置中清除密钥；卸载扩展会移除已保存的扩展设置。
+所选服务、API 地址、模型、语言、显示模式及开关保存在此浏览器配置文件中。API Key 在本机保存，仅可信扩展上下文可访问，TikTok 网页脚本无法读取；不会跨设备同步，更新扩展或重启浏览器后仍保留，直到你清除密钥、保存不同自定义 API 域名或卸载扩展。切换到免费服务会保留本机原有 API 配置与密钥，不会将其发送给免费服务。普通字幕、评论翻译只在页面或扩展后台内存中短暂缓存；仅上文所述已收藏句子会持久保存在本机。页面关闭时清除页面内存，后台停止时清除后台缓存。可在设置中清除密钥；卸载扩展会移除已保存的扩展设置。
 
 ### 权限与范围
 
@@ -66,7 +66,7 @@ TikTok Lingo 对接收数据的使用和转移遵守 Chrome Web Store User Data 
 
 ## TikTok Lingo · 隱私權政策
 
-更新日期：2026-09-20 · 適用於 1.3.0
+更新日期：2026-09-23 · 適用於 1.4.2
 
 ### 擴充功能處理的資料
 
@@ -78,11 +78,11 @@ TikTok Lingo 对接收数据的使用和转移遵守 Chrome Web Store User Data 
 
 ### 本機聽力練習
 
-內建 Compromise 在瀏覽器本機將字幕分組，無需 AI API Key。練習在本機儲存影片識別碼、字幕指紋、數字卡片順序及學習標記；待再練句子另存原文、已有譯文、影片連結和字幕時間點。學習管理彙總所有保留影片，可在新分頁練習指定句子，也可刪除待再練紀錄及儲存文字。舊紀錄缺文字時會在重訪影片後補齊。不按100個影片自動淘汰，空間不足時回報錯誤。不儲存音訊，不跨裝置同步學習紀錄。原有翻譯仍遵循翻譯設定。清除擴充功能儲存或解除安裝可刪除練習進度。
+內建 Compromise 在瀏覽器本機將字幕分組，無需 AI API Key。練習在本機儲存影片識別碼、影片標題、難度偏好、字幕指紋、數字卡片順序及學習標記；備註、標籤及目錄也僅儲存在此瀏覽器。已收藏句子另存原文、已有譯文、影片連結和字幕時間點。學習管理彙總所有保留影片，可在新分頁練習指定句子，也可刪除收藏紀錄及儲存文字。舊紀錄缺文字時會在重訪影片後補齊。不按100個影片自動淘汰，空間不足時回報錯誤。不儲存音訊，不跨裝置同步學習紀錄。原有翻譯仍遵循翻譯設定。清除擴充功能儲存或解除安裝可刪除練習進度。
 
 ### 本機儲存與保留期限
 
-所選服務、API 網址、模型、語言、顯示模式及開關儲存在此瀏覽器設定檔中。API Key 儲存在本機，僅受信任的擴充功能環境可存取，TikTok 網頁指令碼無法讀取；不會跨裝置同步，更新擴充功能或重啟瀏覽器後仍保留，直到你清除金鑰、儲存不同自訂 API 網域或解除安裝。切換至免費服務會保留本機原有 API 設定與金鑰，不會將其傳送給免費服務。一般字幕、留言翻譯僅在網頁或擴充功能背景記憶體中暫存；僅上述待再練句子會持久儲存在本機。網頁關閉時清除網頁記憶體，背景程序停止時清除背景快取。可在設定中清除金鑰；解除安裝會移除已儲存的擴充功能設定。
+所選服務、API 網址、模型、語言、顯示模式及開關儲存在此瀏覽器設定檔中。API Key 儲存在本機，僅受信任的擴充功能環境可存取，TikTok 網頁指令碼無法讀取；不會跨裝置同步，更新擴充功能或重啟瀏覽器後仍保留，直到你清除金鑰、儲存不同自訂 API 網域或解除安裝。切換至免費服務會保留本機原有 API 設定與金鑰，不會將其傳送給免費服務。一般字幕、留言翻譯僅在網頁或擴充功能背景記憶體中暫存；僅上述已收藏句子會持久儲存在本機。網頁關閉時清除網頁記憶體，背景程序停止時清除背景快取。可在設定中清除金鑰；解除安裝會移除已儲存的擴充功能設定。
 
 ### 權限與範圍
 
