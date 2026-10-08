@@ -1,98 +1,97 @@
-# TikTok Lingo · Privacy policy / 隐私政策 / 隱私權政策
+# SideLingo · Privacy policy / 隐私政策 / 隱私權政策
 
-## TikTok Lingo · Privacy policy
+## SideLingo · Privacy policy
 
-Updated: 23 September 2026 · Applies to version 1.4.2
+Updated: 8 October 2026 · Applies to version 1.5.0
 
 ### Data used by the extension
 
-On TikTok pages, the extension reads the current video identifier, native subtitle URLs, subtitle text and timings to display subtitles and seek within the video. When comment translation is enabled, it also reads the body text of visible comments and expanded replies. It does not read commenter usernames, avatars or comment drafts. Video identifiers distinguish videos locally and are not sent to the translation provider.
+On TikTok and YouTube video pages, the extension reads the current video identifier, native subtitle URLs, subtitle text and timings to display subtitles and seek within the video. When comment translation is enabled, it also reads the body text of visible comments and expanded replies. It does not read commenter usernames, avatars or comment drafts. Video identifiers distinguish videos locally and are not sent to the translation provider.
 
 ### Translation and third parties
 
-New installations enable subtitle translation with Google web translation by default, without an API key. You can select Microsoft web translation instead, configure an OpenAI-compatible API, or disable translation. New installations use bilingual comments by default. Visible comments are translated when the comments panel is opened; choosing original-only comments or disabling translation stops these requests. Subtitle text and enabled visible comment text, together with language settings, are sent directly over HTTPS to the selected provider. The free services use translate.googleapis.com (Google) or edge.microsoft.com (Microsoft), with no API key or browser cookies. These web endpoints are not paid Cloud Translation or Azure API subscriptions; availability and rate limits may change. Custom AI services use your saved API key and may charge fees. TikTok Lingo has no developer-operated relay server and does not receive or sell your text, keys or usage data. Testing the saved service sends a short sample sentence. Google and Microsoft are independent providers, not sponsors of this extension. Provider policies: [Google](https://policies.google.com/privacy) · [Microsoft](https://privacy.microsoft.com/privacystatement).
+New installations enable subtitle translation with Google web translation by default, without an API key. You can select Microsoft web translation instead, configure an OpenAI-compatible API, or disable translation. New installations use bilingual comments by default. Visible comments are translated when you open or scroll to them, including expanded replies; choosing original-only comments or disabling translation stops these requests. Subtitle text and enabled visible comment text, together with language settings, are sent directly over HTTPS to the selected provider. The free services use translate.googleapis.com (Google) or edge.microsoft.com (Microsoft), with no API key or browser cookies. These web endpoints are not paid Cloud Translation or Azure API subscriptions; availability and rate limits may change. Custom AI services use your saved API key and may charge fees. SideLingo has no developer-operated relay server and does not receive or sell your text, keys or usage data. Testing the saved service sends a short sample sentence. Google and Microsoft are independent providers, not sponsors of this extension. Provider policies: [Google](https://policies.google.com/privacy) · [Microsoft](https://privacy.microsoft.com/privacystatement).
 
 ### Local listening practice
 
-Compromise is bundled and runs locally to group subtitle text into practice cards, without an AI API key. Practice stores video identifiers, video titles, difficulty preferences, subtitle fingerprints, numeric card order and learning marks locally. Saved-sentence notes, tags and folders also stay in this browser. Saved sentences additionally retain the original text, available translation, video link and subtitle timestamps. Learning manager shows totals across all saved videos, opens selected sentences in a new tab, and lets you delete saved sentence entries and their text. Previous records without text are filled when their video is revisited. Records are not automatically evicted after 100 videos; storage errors are reported instead. Audio is never stored, and learning data is not synced across devices. The normal translation settings still govern any translation requests. Clearing extension storage or uninstalling removes progress.
+Compromise is bundled and runs locally to group subtitle text into practice cards, without an AI API key. Practice stores video identifiers, video titles, difficulty preferences, subtitle fingerprints, numeric card order and learning marks locally. Saved review notes, tags and folders also stay in this browser. Favorite sentences additionally retain the original text, available translation, video link and subtitle timestamps. Learning manager shows totals across all saved videos, opens selected sentences in a new tab, and lets you delete favorite entries and their saved text. Previous records without text are filled when their video is revisited. Records are not automatically evicted after 100 videos; storage errors are reported instead. Audio is never stored, and learning data is not synced across devices. The normal translation settings still govern any translation requests. Clearing extension storage or uninstalling removes progress.
 
 ### Local storage and retention
 
-Your selected service, API endpoint, model, language preferences, display modes and switches are saved in this browser profile. The API key is stored locally and is accessible only to trusted extension contexts, not TikTok page scripts. It is not synced across devices and remains after extension updates or browser restarts until you clear it, save a different custom API domain, or uninstall the extension. Switching to a free service keeps your custom API settings and key on this device, but does not send them to the free service. Ordinary subtitle/comment translation caches are temporary and stay in page or extension background memory. Only the saved sentences described above persist locally. Page memory clears when the page closes; background cache clears when the background worker stops. Clear your key in settings; uninstalling removes the extension's saved settings.
+Your selected service, API endpoint, model, language preferences, display modes and switches are saved in this browser profile. The API key is stored locally and is accessible only to trusted extension contexts, not website scripts. It is not synced across devices and remains after extension updates or browser restarts until you clear it, save a different custom API domain, or uninstall the extension. Switching to a free service keeps your custom API settings and key on this device, but does not send them to the free service. Ordinary subtitle/comment translation caches are temporary and stay in page or extension background memory. Only the favorite sentences described above persist locally. Page memory clears when the page closes; background cache clears when the background worker stops. Clear your key in settings; uninstalling removes the extension's saved settings.
 
 ### Permissions and scope
 
-TikTok access is used to read subtitles, enabled comment translations and adjust the player layout. Access to *.tiktokcdn-us.com is used only to read the online subtitle files referenced by the current video. The two free translation domains are included in installation permissions so new users can translate without setup. Access to a custom translation API is requested for the specific provider domain when you save settings. The extension does not read passwords, private messages, browsing history or payment information, and does not upload video or audio. It has no advertising, tracking or analytics services.
+TikTok and YouTube access is used to read online subtitle tracks and enabled comment text, display practice controls and adjust the player layout. Access to *.tiktokcdn-us.com is used only to read the online subtitle files referenced by the current video. The two free translation domains are included in installation permissions so new users can translate without setup. Access to a custom translation API is requested for the specific provider domain when you save settings. The extension does not read passwords, private messages, browsing history or payment information, and does not upload video or audio. It has no advertising, tracking or analytics services.
 
 ### Limited use
 
-TikTok Lingo's use and transfer of received data comply with the Chrome Web Store User Data Policy, including its Limited Use requirements. Data is used only for user-visible subtitle, comment translation and local listening practice features, not for advertising, profiling, credit decisions or sale.
+SideLingo's use and transfer of received data comply with the Chrome Web Store User Data Policy, including its Limited Use requirements. Data is used only for user-visible subtitle, comment translation and local listening practice features, not for advertising, profiling, credit decisions or sale.
 
 ### Contact
 
 Support: allon517@gmail.com
 
-## TikTok Lingo · 隐私政策
+## SideLingo · 隐私政策
 
-更新日期：2026-09-23 · 适用于 1.4.2
+更新日期：2026-10-08 · 适用于 1.5.0
 
 ### 扩展处理的数据
 
-扩展在 TikTok 页面读取当前视频标识、原生字幕地址、字幕文本与时间，用于字幕显示和点击跳转。开启评论翻译后，还会读取当前可见评论及展开回复的正文，不读取评论者用户名、头像或评论草稿。视频标识仅在本机用于区分视频，不发送给翻译服务商。
+扩展在 TikTok 和 YouTube 视频页面读取当前视频标识、原生字幕地址、字幕文本与时间，用于字幕显示和点击跳转。开启评论翻译后，还会读取当前可见评论及展开回复的正文，不读取评论者用户名、头像或评论草稿。视频标识仅在本机用于区分视频，不发送给翻译服务商。
 
 ### 翻译与第三方服务
 
-新安装默认开启字幕翻译并使用 Google 网页翻译，无需 API Key。可改选微软网页翻译、配置 OpenAI 兼容 API，或关闭翻译。新安装的评论默认双语，打开评论区时翻译可见评论；改为仅原文或关闭翻译可停止这些请求。字幕及开启翻译的可见评论正文，连同语言设置，经 HTTPS 直连所选服务商。免费服务使用 translate.googleapis.com（Google）或 edge.microsoft.com（微软），不发送 API Key 或浏览器 Cookie；这些网页接口并非付费 Cloud Translation 或 Azure API 订阅，可用性及限流规则可能改变。自定义 AI 服务使用你保存的密钥，可能收费。TikTok Lingo 不设开发者中转服务器，不接收或出售文本、密钥或使用数据。测试已保存的服务会发送一句示例文本。Google 和微软是独立服务商，不为本扩展背书。
+新安装默认开启字幕翻译并使用 Google 网页翻译，无需 API Key。可改选微软网页翻译、配置 OpenAI 兼容 API，或关闭翻译。新安装的评论默认双语，打开或滚动到评论区时翻译可见评论及展开的回复；改为仅原文或关闭翻译可停止这些请求。字幕及开启翻译的可见评论正文，连同语言设置，经 HTTPS 直连所选服务商。免费服务使用 translate.googleapis.com（Google）或 edge.microsoft.com（微软），不发送 API Key 或浏览器 Cookie；这些网页接口并非付费 Cloud Translation 或 Azure API 订阅，可用性及限流规则可能改变。自定义 AI 服务使用你保存的密钥，可能收费。SideLingo 不设开发者中转服务器，不接收或出售文本、密钥或使用数据。测试已保存的服务会发送一句示例文本。Google 和微软是独立服务商，不为本扩展背书。
 
 ### 本地听力练习
 
-内置 Compromise 在浏览器本地将字幕分组，无需 AI API Key。练习在本机保存视频标识、视频标题、难度偏好、字幕指纹、数字卡片顺序及学习标记；备注、标签和目录也只保存在此浏览器。已收藏句子额外保存原文、已有译文、视频链接和字幕时间点。学习管理汇总所有保留视频，可新开页面学习指定句子，也可删除收藏记录及保存文本。旧记录没有文本时，在回访视频后补齐。不按100个视频自动淘汰，空间不足时报告错误。不保存音频，不跨设备同步学习记录。已有翻译仍遵循翻译设置。清除扩展存储或卸载可删除练习进度。
+内置 Compromise 在浏览器本地将字幕分组，无需 AI API Key。练习在本机保存视频标识、视频标题、难度偏好、字幕指纹、数字卡片顺序及学习标记；备注、标签和目录也只保存在此浏览器。收藏句子额外保存原文、已有译文、视频链接和字幕时间点。学习管理汇总所有保留视频，可新开页面学习指定句子，也可删除收藏记录及保存文本。旧记录没有文本时，在回访视频后补齐。不按100个视频自动淘汰，空间不足时报告错误。不保存音频，不跨设备同步学习记录。已有翻译仍遵循翻译设置。清除扩展存储或卸载可删除练习进度。
 
 ### 本机存储与保留期限
 
-所选服务、API 地址、模型、语言、显示模式及开关保存在此浏览器配置文件中。API Key 在本机保存，仅可信扩展上下文可访问，TikTok 网页脚本无法读取；不会跨设备同步，更新扩展或重启浏览器后仍保留，直到你清除密钥、保存不同自定义 API 域名或卸载扩展。切换到免费服务会保留本机原有 API 配置与密钥，不会将其发送给免费服务。普通字幕、评论翻译只在页面或扩展后台内存中短暂缓存；仅上文所述已收藏句子会持久保存在本机。页面关闭时清除页面内存，后台停止时清除后台缓存。可在设置中清除密钥；卸载扩展会移除已保存的扩展设置。
+所选服务、API 地址、模型、语言、显示模式及开关保存在此浏览器配置文件中。API Key 在本机保存，仅可信扩展上下文可访问，网站的网页脚本无法读取；不会跨设备同步，更新扩展或重启浏览器后仍保留，直到你清除密钥、保存不同自定义 API 域名或卸载扩展。切换到免费服务会保留本机原有 API 配置与密钥，不会将其发送给免费服务。普通字幕、评论翻译只在页面或扩展后台内存中短暂缓存；仅上文所述收藏句子会持久保存在本机。页面关闭时清除页面内存，后台停止时清除后台缓存。可在设置中清除密钥；卸载扩展会移除已保存的扩展设置。
 
 ### 权限与范围
 
-TikTok 访问权限用于读取字幕、已开启翻译的评论正文和调整播放器布局。两个免费翻译域名包含在安装权限中，方便新用户直接使用。自定义翻译 API 的访问权限在保存设置时按具体服务商域名单独申请。扩展不读取密码、私信、浏览历史或支付信息，不上传视频或音频，不含广告、追踪或数据分析服务。
+TikTok 和 YouTube 访问权限用于读取在线字幕、已开启翻译的评论正文、显示练习控件和调整播放器布局。*.tiktokcdn-us.com 权限仅用于读取当前视频引用的在线字幕文件。两个免费翻译域名包含在安装权限中，方便新用户直接使用。自定义翻译 API 的访问权限在保存设置时按具体服务商域名单独申请。扩展不读取密码、私信、浏览历史或支付信息，不上传视频或音频，不含广告、追踪或数据分析服务。
 
 ### 数据使用限制
 
-TikTok Lingo 对接收数据的使用和转移遵守 Chrome Web Store User Data Policy，包括 Limited Use 要求。数据仅用于用户可见的字幕、评论翻译及本地听力练习，不用于广告、画像、信用评估或出售。
+SideLingo 对接收数据的使用和转移遵守 Chrome Web Store User Data Policy，包括 Limited Use 要求。数据仅用于用户可见的字幕、评论翻译及本地听力练习，不用于广告、画像、信用评估或出售。
 
 ### 联系
 
 支持邮箱：allon517@gmail.com
 
-## TikTok Lingo · 隱私權政策
+## SideLingo · 隱私權政策
 
-更新日期：2026-09-23 · 適用於 1.4.2
+更新日期：2026-10-08 · 適用於 1.5.0
 
 ### 擴充功能處理的資料
 
-擴充功能在 TikTok 網頁讀取目前影片識別碼、原生字幕網址、字幕文字與時間，用於顯示字幕及點擊跳轉。啟用留言翻譯後，還會讀取目前可見留言與展開回覆的正文，不讀取留言者使用者名稱、頭像或留言草稿。影片識別碼僅在本機用於區分影片，不會傳送至翻譯服務商。
+擴充功能在 TikTok 和 YouTube 影片網頁讀取目前影片識別碼、原生字幕網址、字幕文字與時間，用於顯示字幕及點擊跳轉。啟用留言翻譯後，還會讀取目前可見留言與展開回覆的正文，不讀取留言者使用者名稱、頭像或留言草稿。影片識別碼僅在本機用於區分影片，不會傳送至翻譯服務商。
 
 ### 翻譯與第三方服務
 
-新安裝預設啟用字幕翻譯並使用 Google 網頁翻譯，無需 API Key。可改選 Microsoft 網頁翻譯、設定 OpenAI 相容 API，或關閉翻譯。新安裝的留言預設雙語，開啟留言區時翻譯可見留言；改為僅原文或關閉翻譯可停止這些請求。字幕及啟用翻譯的可見留言正文，連同語言設定，經 HTTPS 直連所選服務商。免費服務使用 translate.googleapis.com（Google）或 edge.microsoft.com（Microsoft），不傳送 API Key 或瀏覽器 Cookie；這些網頁介面並非付費 Cloud Translation 或 Azure API 訂閱，可用性及限流規則可能改變。自訂 AI 服務使用你儲存的金鑰，可能收費。TikTok Lingo 不設開發者中轉伺服器，不接收或出售文字、金鑰或使用資料。測試已儲存的服務會傳送一句範例文字。Google 和 Microsoft 是獨立服務商，不為本擴充功能背書。
+新安裝預設啟用字幕翻譯並使用 Google 網頁翻譯，無需 API Key。可改選 Microsoft 網頁翻譯、設定 OpenAI 相容 API，或關閉翻譯。新安裝的留言預設雙語，開啟或捲動至留言區時翻譯可見留言與展開的回覆；改為僅原文或關閉翻譯可停止這些請求。字幕及啟用翻譯的可見留言正文，連同語言設定，經 HTTPS 直連所選服務商。免費服務使用 translate.googleapis.com（Google）或 edge.microsoft.com（Microsoft），不傳送 API Key 或瀏覽器 Cookie；這些網頁介面並非付費 Cloud Translation 或 Azure API 訂閱，可用性及限流規則可能改變。自訂 AI 服務使用你儲存的金鑰，可能收費。SideLingo 不設開發者中轉伺服器，不接收或出售文字、金鑰或使用資料。測試已儲存的服務會傳送一句範例文字。Google 和 Microsoft 是獨立服務商，不為本擴充功能背書。
 
 ### 本機聽力練習
 
-內建 Compromise 在瀏覽器本機將字幕分組，無需 AI API Key。練習在本機儲存影片識別碼、影片標題、難度偏好、字幕指紋、數字卡片順序及學習標記；備註、標籤及目錄也僅儲存在此瀏覽器。已收藏句子另存原文、已有譯文、影片連結和字幕時間點。學習管理彙總所有保留影片，可在新分頁練習指定句子，也可刪除收藏紀錄及儲存文字。舊紀錄缺文字時會在重訪影片後補齊。不按100個影片自動淘汰，空間不足時回報錯誤。不儲存音訊，不跨裝置同步學習紀錄。原有翻譯仍遵循翻譯設定。清除擴充功能儲存或解除安裝可刪除練習進度。
+內建 Compromise 在瀏覽器本機將字幕分組，無需 AI API Key。練習在本機儲存影片識別碼、影片標題、難度偏好、字幕指紋、數字卡片順序及學習標記；備註、標籤及目錄也僅儲存在此瀏覽器。收藏句子另存原文、已有譯文、影片連結和字幕時間點。學習管理彙總所有保留影片，可在新分頁練習指定句子，也可刪除收藏紀錄及儲存文字。舊紀錄缺文字時會在重訪影片後補齊。不按100個影片自動淘汰，空間不足時回報錯誤。不儲存音訊，不跨裝置同步學習紀錄。原有翻譯仍遵循翻譯設定。清除擴充功能儲存或解除安裝可刪除練習進度。
 
 ### 本機儲存與保留期限
 
-所選服務、API 網址、模型、語言、顯示模式及開關儲存在此瀏覽器設定檔中。API Key 儲存在本機，僅受信任的擴充功能環境可存取，TikTok 網頁指令碼無法讀取；不會跨裝置同步，更新擴充功能或重啟瀏覽器後仍保留，直到你清除金鑰、儲存不同自訂 API 網域或解除安裝。切換至免費服務會保留本機原有 API 設定與金鑰，不會將其傳送給免費服務。一般字幕、留言翻譯僅在網頁或擴充功能背景記憶體中暫存；僅上述已收藏句子會持久儲存在本機。網頁關閉時清除網頁記憶體，背景程序停止時清除背景快取。可在設定中清除金鑰；解除安裝會移除已儲存的擴充功能設定。
+所選服務、API 網址、模型、語言、顯示模式及開關儲存在此瀏覽器設定檔中。API Key 儲存在本機，僅受信任的擴充功能環境可存取，網站的網頁指令碼無法讀取；不會跨裝置同步，更新擴充功能或重啟瀏覽器後仍保留，直到你清除金鑰、儲存不同自訂 API 網域或解除安裝。切換至免費服務會保留本機原有 API 設定與金鑰，不會將其傳送給免費服務。一般字幕、留言翻譯僅在網頁或擴充功能背景記憶體中暫存；僅上述收藏句子會持久儲存在本機。網頁關閉時清除網頁記憶體，背景程序停止時清除背景快取。可在設定中清除金鑰；解除安裝會移除已儲存的擴充功能設定。
 
 ### 權限與範圍
 
-TikTok 存取權限用於讀取字幕、已啟用翻譯的留言正文及調整播放器版面。兩個免費翻譯網域包含在安裝權限中，方便新使用者直接使用。自訂翻譯 API 的存取權限在儲存設定時按特定服務商網域個別申請。擴充功能不讀取密碼、私人訊息、瀏覽紀錄或付款資訊，不上傳影片或音訊，不含廣告、追蹤或資料分析服務。
+TikTok 和 YouTube 存取權限用於讀取線上字幕、已啟用翻譯的留言正文、顯示練習控制項及調整播放器版面。*.tiktokcdn-us.com 權限僅用於讀取目前影片引用的線上字幕檔案。兩個免費翻譯網域包含在安裝權限中，方便新使用者直接使用。自訂翻譯 API 的存取權限在儲存設定時按特定服務商網域個別申請。擴充功能不讀取密碼、私人訊息、瀏覽紀錄或付款資訊，不上傳影片或音訊，不含廣告、追蹤或資料分析服務。
 
 ### 資料使用限制
 
-TikTok Lingo 對接收資料的使用與移轉遵守 Chrome Web Store User Data Policy，包括 Limited Use 要求。資料僅用於使用者可見的字幕、留言翻譯與本機聽力練習，不用於廣告、建立個人剖析、信用評估或出售。
+SideLingo 對接收資料的使用與移轉遵守 Chrome Web Store User Data Policy，包括 Limited Use 要求。資料僅用於使用者可見的字幕、留言翻譯與本機聽力練習，不用於廣告、建立個人剖析、信用評估或出售。
 
 ### 聯絡
 
 支援信箱：allon517@gmail.com
-
