@@ -2,7 +2,7 @@
 
 ## SideLingo · Privacy policy
 
-Updated: 8 October 2026 · Applies to version 1.5.0
+Updated: 29 October 2026 · Applies to version 1.6.0
 
 ### Data used by the extension
 
@@ -11,6 +11,10 @@ On TikTok and YouTube video pages, the extension reads the current video identif
 ### Translation and third parties
 
 New installations enable subtitle translation with Google web translation by default, without an API key. You can select Microsoft web translation instead, configure an OpenAI-compatible API, or disable translation. New installations use bilingual comments by default. Visible comments are translated when you open or scroll to them, including expanded replies; choosing original-only comments or disabling translation stops these requests. Subtitle text and enabled visible comment text, together with language settings, are sent directly over HTTPS to the selected provider. The free services use translate.googleapis.com (Google) or edge.microsoft.com (Microsoft), with no API key or browser cookies. These web endpoints are not paid Cloud Translation or Azure API subscriptions; availability and rate limits may change. Custom AI services use your saved API key and may charge fees. SideLingo has no developer-operated relay server and does not receive or sell your text, keys or usage data. Testing the saved service sends a short sample sentence. Google and Microsoft are independent providers, not sponsors of this extension. Provider policies: [Google](https://policies.google.com/privacy) · [Microsoft](https://privacy.microsoft.com/privacystatement).
+
+### Manually requested AI video summaries
+
+Only when you click AI summary or retry does this feature send the current video title, all available loaded subtitle text and timings, and language settings directly over HTTPS to your configured AI service. Long subtitles are processed in parts, and intermediate notes are sent to the same service to produce a complete summary. The service uses your saved AI API address, model and key independently of a free translation provider; it may charge fees. The video identifier stays local and is not sent in summary requests. Your API key is sent only to the configured AI service for authentication, never to the free translation services or website scripts. No video or audio is uploaded. Summaries and intermediate notes are not saved to persistent extension storage or synced across devices. Closing the panel, switching videos or disabling SideLingo cancels the active summary. Opening a video or displaying the summary button does not automatically send a summary request. You can hide the entry button without disabling other features. Turning off Enable SideLingo stops all page features; you can restore it from settings in the extension toolbar.
 
 ### Local listening practice
 
@@ -22,11 +26,11 @@ Your selected service, API endpoint, model, language preferences, display modes 
 
 ### Permissions and scope
 
-TikTok and YouTube access is used to read online subtitle tracks and enabled comment text, display practice controls and adjust the player layout. Access to *.tiktokcdn-us.com is used only to read the online subtitle files referenced by the current video. The two free translation domains are included in installation permissions so new users can translate without setup. Access to a custom translation API is requested for the specific provider domain when you save settings. The extension does not read passwords, private messages, browsing history or payment information, and does not upload video or audio. It has no advertising, tracking or analytics services.
+TikTok and YouTube access is used to read online subtitle tracks and enabled comment text, display practice controls and adjust the player layout. Access to *.tiktokcdn-us.com is used only to read the online subtitle files referenced by the current video. The two free translation domains are included in installation permissions so new users can translate without setup. Access to a custom AI API for translation or video summaries is requested for the specific provider domain when you save settings. The extension does not read passwords, private messages, browsing history or payment information, and does not upload video or audio. It has no advertising, tracking or analytics services.
 
 ### Limited use
 
-SideLingo's use and transfer of received data comply with the Chrome Web Store User Data Policy, including its Limited Use requirements. Data is used only for user-visible subtitle, comment translation and local listening practice features, not for advertising, profiling, credit decisions or sale.
+SideLingo's use and transfer of received data comply with the Chrome Web Store User Data Policy, including its Limited Use requirements. Data is used only for user-visible subtitles, comment translation, local listening practice and manually requested AI video summaries, not for advertising, profiling, credit decisions or sale.
 
 ### Contact
 
@@ -34,7 +38,7 @@ Support: allon517@gmail.com
 
 ## SideLingo · 隐私政策
 
-更新日期：2026-10-08 · 适用于 1.5.0
+更新日期：2026-10-29 · 适用于 1.6.0
 
 ### 扩展处理的数据
 
@@ -43,6 +47,10 @@ Support: allon517@gmail.com
 ### 翻译与第三方服务
 
 新安装默认开启字幕翻译并使用 Google 网页翻译，无需 API Key。可改选微软网页翻译、配置 OpenAI 兼容 API，或关闭翻译。新安装的评论默认双语，打开或滚动到评论区时翻译可见评论及展开的回复；改为仅原文或关闭翻译可停止这些请求。字幕及开启翻译的可见评论正文，连同语言设置，经 HTTPS 直连所选服务商。免费服务使用 translate.googleapis.com（Google）或 edge.microsoft.com（微软），不发送 API Key 或浏览器 Cookie；这些网页接口并非付费 Cloud Translation 或 Azure API 订阅，可用性及限流规则可能改变。自定义 AI 服务使用你保存的密钥，可能收费。SideLingo 不设开发者中转服务器，不接收或出售文本、密钥或使用数据。测试已保存的服务会发送一句示例文本。Google 和微软是独立服务商，不为本扩展背书。
+
+### 手动 AI 视频概括
+
+仅当你点击 AI 概括或重试时，此功能才将当前视频标题、已加载的全部可用字幕文本与时间及语言设置，经 HTTPS 直接发送至你配置的 AI 服务。长字幕分块处理，中间笔记仍发送至同一服务聚合成完整概括。概括独立于免费翻译服务，使用已保存的 AI API 地址、模型和密钥，服务商可能收费。视频标识仅在本机使用，不发送于概括请求。API Key 只发送至所配 AI 服务用于鉴权，不发送给免费翻译服务或网站网页脚本。不上传视频或音频。概括及中间笔记不持久保存到扩展存储，也不跨设备同步。关闭面板、切换视频或停用 SideLingo 会取消正在进行的概括。打开视频或显示概括按钮不会自动发送概括请求。可单独隐藏入口而不关闭其他功能；关闭「启用 SideLingo」会停止全部页面功能，可从扩展工具栏中的设置恢复。
 
 ### 本地听力练习
 
@@ -54,11 +62,11 @@ Support: allon517@gmail.com
 
 ### 权限与范围
 
-TikTok 和 YouTube 访问权限用于读取在线字幕、已开启翻译的评论正文、显示练习控件和调整播放器布局。*.tiktokcdn-us.com 权限仅用于读取当前视频引用的在线字幕文件。两个免费翻译域名包含在安装权限中，方便新用户直接使用。自定义翻译 API 的访问权限在保存设置时按具体服务商域名单独申请。扩展不读取密码、私信、浏览历史或支付信息，不上传视频或音频，不含广告、追踪或数据分析服务。
+TikTok 和 YouTube 访问权限用于读取在线字幕、已开启翻译的评论正文、显示练习控件和调整播放器布局。*.tiktokcdn-us.com 权限仅用于读取当前视频引用的在线字幕文件。两个免费翻译域名包含在安装权限中，方便新用户直接使用。自定义翻译或视频概括 AI API 的访问权限在保存设置时按具体服务商域名单独申请。扩展不读取密码、私信、浏览历史或支付信息，不上传视频或音频，不含广告、追踪或数据分析服务。
 
 ### 数据使用限制
 
-SideLingo 对接收数据的使用和转移遵守 Chrome Web Store User Data Policy，包括 Limited Use 要求。数据仅用于用户可见的字幕、评论翻译及本地听力练习，不用于广告、画像、信用评估或出售。
+SideLingo 对接收数据的使用和转移遵守 Chrome Web Store User Data Policy，包括 Limited Use 要求。数据仅用于用户可见的字幕、评论翻译、本地听力练习及手动 AI 视频概括，不用于广告、画像、信用评估或出售。
 
 ### 联系
 
@@ -66,7 +74,7 @@ SideLingo 对接收数据的使用和转移遵守 Chrome Web Store User Data Pol
 
 ## SideLingo · 隱私權政策
 
-更新日期：2026-10-08 · 適用於 1.5.0
+更新日期：2026-10-29 · 適用於 1.6.0
 
 ### 擴充功能處理的資料
 
@@ -75,6 +83,10 @@ SideLingo 对接收数据的使用和转移遵守 Chrome Web Store User Data Pol
 ### 翻譯與第三方服務
 
 新安裝預設啟用字幕翻譯並使用 Google 網頁翻譯，無需 API Key。可改選 Microsoft 網頁翻譯、設定 OpenAI 相容 API，或關閉翻譯。新安裝的留言預設雙語，開啟或捲動至留言區時翻譯可見留言與展開的回覆；改為僅原文或關閉翻譯可停止這些請求。字幕及啟用翻譯的可見留言正文，連同語言設定，經 HTTPS 直連所選服務商。免費服務使用 translate.googleapis.com（Google）或 edge.microsoft.com（Microsoft），不傳送 API Key 或瀏覽器 Cookie；這些網頁介面並非付費 Cloud Translation 或 Azure API 訂閱，可用性及限流規則可能改變。自訂 AI 服務使用你儲存的金鑰，可能收費。SideLingo 不設開發者中轉伺服器，不接收或出售文字、金鑰或使用資料。測試已儲存的服務會傳送一句範例文字。Google 和 Microsoft 是獨立服務商，不為本擴充功能背書。
+
+### 手動 AI 影片摘要
+
+只有在你點擊 AI 摘要或重試時，此功能才會將目前影片標題、已載入的全部可用字幕文字與時間及語言設定，透過 HTTPS 直接傳送至你設定的 AI 服務。長字幕分段處理，中間筆記仍傳送至同一服務彙整成完整摘要。摘要獨立於免費翻譯服務，使用已儲存的 AI API 網址、模型和金鑰，服務商可能收費。影片識別碼僅在本機使用，不會隨摘要請求傳送。API Key 只會傳送至設定的 AI 服務用於驗證，不會傳送給免費翻譯服務或網站網頁指令碼。不上傳影片或音訊。摘要與中間筆記不會永久儲存於擴充功能儲存空間，也不會跨裝置同步。關閉面板、切換影片或停用 SideLingo 會取消進行中的摘要。開啟影片或顯示摘要按鈕不會自動傳送摘要請求。可單獨隱藏入口而不關閉其他功能；關閉「啟用 SideLingo」會停止所有網頁功能，可從擴充功能工具列中的設定恢復。
 
 ### 本機聽力練習
 
@@ -86,11 +98,11 @@ SideLingo 对接收数据的使用和转移遵守 Chrome Web Store User Data Pol
 
 ### 權限與範圍
 
-TikTok 和 YouTube 存取權限用於讀取線上字幕、已啟用翻譯的留言正文、顯示練習控制項及調整播放器版面。*.tiktokcdn-us.com 權限僅用於讀取目前影片引用的線上字幕檔案。兩個免費翻譯網域包含在安裝權限中，方便新使用者直接使用。自訂翻譯 API 的存取權限在儲存設定時按特定服務商網域個別申請。擴充功能不讀取密碼、私人訊息、瀏覽紀錄或付款資訊，不上傳影片或音訊，不含廣告、追蹤或資料分析服務。
+TikTok 和 YouTube 存取權限用於讀取線上字幕、已啟用翻譯的留言正文、顯示練習控制項及調整播放器版面。*.tiktokcdn-us.com 權限僅用於讀取目前影片引用的線上字幕檔案。兩個免費翻譯網域包含在安裝權限中，方便新使用者直接使用。自訂翻譯或影片摘要 AI API 的存取權限在儲存設定時按特定服務商網域個別申請。擴充功能不讀取密碼、私人訊息、瀏覽紀錄或付款資訊，不上傳影片或音訊，不含廣告、追蹤或資料分析服務。
 
 ### 資料使用限制
 
-SideLingo 對接收資料的使用與移轉遵守 Chrome Web Store User Data Policy，包括 Limited Use 要求。資料僅用於使用者可見的字幕、留言翻譯與本機聽力練習，不用於廣告、建立個人剖析、信用評估或出售。
+SideLingo 對接收資料的使用與移轉遵守 Chrome Web Store User Data Policy，包括 Limited Use 要求。資料僅用於使用者可見的字幕、留言翻譯、本機聽力練習與手動 AI 影片摘要，不用於廣告、建立個人剖析、信用評估或出售。
 
 ### 聯絡
 
