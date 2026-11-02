@@ -2,7 +2,7 @@
 
 ## SideLingo · Privacy policy
 
-Updated: 29 October 2026 · Applies to version 1.6.0
+Updated: 2 November 2026 · Applies to version 1.6.1
 
 ### Data used by the extension
 
@@ -14,7 +14,7 @@ New installations enable subtitle translation with Google web translation by def
 
 ### Manually requested AI video summaries
 
-Only when you click AI summary or retry does this feature send the current video title, all available loaded subtitle text and timings, and language settings directly over HTTPS to your configured AI service. Long subtitles are processed in parts, and intermediate notes are sent to the same service to produce a complete summary. The service uses your saved AI API address, model and key independently of a free translation provider; it may charge fees. The video identifier stays local and is not sent in summary requests. Your API key is sent only to the configured AI service for authentication, never to the free translation services or website scripts. No video or audio is uploaded. Summaries and intermediate notes are not saved to persistent extension storage or synced across devices. Closing the panel, switching videos or disabling SideLingo cancels the active summary. Opening a video or displaying the summary button does not automatically send a summary request. You can hide the entry button without disabling other features. Turning off Enable SideLingo stops all page features; you can restore it from settings in the extension toolbar.
+Only when you click AI summary or retry does this feature send the current video title, all available loaded subtitle text and timings, and language settings directly over HTTPS to your configured AI service. Long subtitles are processed in parts, and intermediate notes are sent to the same service to produce a complete summary. The service uses your saved AI API address, model and key independently of a free translation provider; it may charge fees. The video identifier stays local and is not sent in summary requests. Your API key is sent only to the configured AI service for authentication, never to the free translation services or website scripts. No video or audio is uploaded. Summaries and intermediate notes are not saved to persistent extension storage or synced across devices. Closing the panel, switching videos or disabling SideLingo cancels the active summary. Opening a video or displaying the summary button does not automatically send a summary request. You can hide the entry button without disabling other features. Turning off Enable SideLingo stops translation, listening practice, lights-out mode and AI summaries, and hides the other page controls. A power button configured to be shown remains visible and highlighted while disabled; click it again to re-enable SideLingo. If you hid the power button, restore SideLingo from settings in the extension toolbar.
 
 ### Local listening practice
 
@@ -38,7 +38,7 @@ Support: allon517@gmail.com
 
 ## SideLingo · 隐私政策
 
-更新日期：2026-10-29 · 适用于 1.6.0
+更新日期：2026-11-02 · 适用于 1.6.1
 
 ### 扩展处理的数据
 
@@ -50,7 +50,7 @@ Support: allon517@gmail.com
 
 ### 手动 AI 视频概括
 
-仅当你点击 AI 概括或重试时，此功能才将当前视频标题、已加载的全部可用字幕文本与时间及语言设置，经 HTTPS 直接发送至你配置的 AI 服务。长字幕分块处理，中间笔记仍发送至同一服务聚合成完整概括。概括独立于免费翻译服务，使用已保存的 AI API 地址、模型和密钥，服务商可能收费。视频标识仅在本机使用，不发送于概括请求。API Key 只发送至所配 AI 服务用于鉴权，不发送给免费翻译服务或网站网页脚本。不上传视频或音频。概括及中间笔记不持久保存到扩展存储，也不跨设备同步。关闭面板、切换视频或停用 SideLingo 会取消正在进行的概括。打开视频或显示概括按钮不会自动发送概括请求。可单独隐藏入口而不关闭其他功能；关闭「启用 SideLingo」会停止全部页面功能，可从扩展工具栏中的设置恢复。
+仅当你点击 AI 概括或重试时，此功能才将当前视频标题、已加载的全部可用字幕文本与时间及语言设置，经 HTTPS 直接发送至你配置的 AI 服务。长字幕分块处理，中间笔记仍发送至同一服务聚合成完整概括。概括独立于免费翻译服务，使用已保存的 AI API 地址、模型和密钥，服务商可能收费。视频标识仅在本机使用，不发送于概括请求。API Key 只发送至所配 AI 服务用于鉴权，不发送给免费翻译服务或网站网页脚本。不上传视频或音频。概括及中间笔记不持久保存到扩展存储，也不跨设备同步。关闭面板、切换视频或停用 SideLingo 会取消正在进行的概括。打开视频或显示概括按钮不会自动发送概括请求。可单独隐藏入口而不关闭其他功能；关闭「启用 SideLingo」会停止翻译、听力练习、关灯和 AI 概括，并隐藏其他页面入口。若电源按钮设为显示，关闭后仍保留并高亮，可再次点击恢复；若已隐藏电源按钮，可从扩展工具栏中的设置恢复。
 
 ### 本地听力练习
 
@@ -74,7 +74,7 @@ SideLingo 对接收数据的使用和转移遵守 Chrome Web Store User Data Pol
 
 ## SideLingo · 隱私權政策
 
-更新日期：2026-10-29 · 適用於 1.6.0
+更新日期：2026-11-02 · 適用於 1.6.1
 
 ### 擴充功能處理的資料
 
@@ -86,7 +86,7 @@ SideLingo 对接收数据的使用和转移遵守 Chrome Web Store User Data Pol
 
 ### 手動 AI 影片摘要
 
-只有在你點擊 AI 摘要或重試時，此功能才會將目前影片標題、已載入的全部可用字幕文字與時間及語言設定，透過 HTTPS 直接傳送至你設定的 AI 服務。長字幕分段處理，中間筆記仍傳送至同一服務彙整成完整摘要。摘要獨立於免費翻譯服務，使用已儲存的 AI API 網址、模型和金鑰，服務商可能收費。影片識別碼僅在本機使用，不會隨摘要請求傳送。API Key 只會傳送至設定的 AI 服務用於驗證，不會傳送給免費翻譯服務或網站網頁指令碼。不上傳影片或音訊。摘要與中間筆記不會永久儲存於擴充功能儲存空間，也不會跨裝置同步。關閉面板、切換影片或停用 SideLingo 會取消進行中的摘要。開啟影片或顯示摘要按鈕不會自動傳送摘要請求。可單獨隱藏入口而不關閉其他功能；關閉「啟用 SideLingo」會停止所有網頁功能，可從擴充功能工具列中的設定恢復。
+只有在你點擊 AI 摘要或重試時，此功能才會將目前影片標題、已載入的全部可用字幕文字與時間及語言設定，透過 HTTPS 直接傳送至你設定的 AI 服務。長字幕分段處理，中間筆記仍傳送至同一服務彙整成完整摘要。摘要獨立於免費翻譯服務，使用已儲存的 AI API 網址、模型和金鑰，服務商可能收費。影片識別碼僅在本機使用，不會隨摘要請求傳送。API Key 只會傳送至設定的 AI 服務用於驗證，不會傳送給免費翻譯服務或網站網頁指令碼。不上傳影片或音訊。摘要與中間筆記不會永久儲存於擴充功能儲存空間，也不會跨裝置同步。關閉面板、切換影片或停用 SideLingo 會取消進行中的摘要。開啟影片或顯示摘要按鈕不會自動傳送摘要請求。可單獨隱藏入口而不關閉其他功能；關閉「啟用 SideLingo」會停止翻譯、聽力練習、關燈與 AI 摘要，並隱藏其他網頁入口。若電源按鈕設為顯示，關閉後仍保留並醒目顯示，可再次點擊恢復；若已隱藏電源按鈕，可從擴充功能工具列中的設定恢復。
 
 ### 本機聽力練習
 
